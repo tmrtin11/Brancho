@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+ /* 
+ #2962ff blue accent-4
+ #43a047 green darken-1
+ #cfd8dc blue-grey lighten-4
+ #424242 grey darken-3
+#212121 grey darken-4
+*/
+@import 'normalize';
+
+html, body {
+	height: 100%;
+	background-color: #263238;
+}
+
+body {
+	padding-top: 46px;
+}
+
+h1 {
+	color: white;
+}
+
+p {
+	color: white;
+}
