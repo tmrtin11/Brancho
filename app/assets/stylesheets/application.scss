@@ -22,10 +22,17 @@
 #212121 grey darken-4
 */
 @import 'normalize';
+@import 'bootstrap';
+@import 'font-awesome';
+@import 'font-awesome-sprockets';
+
+.navbar-custom {
+	background-color: #212121;
+}
 
 html, body {
 	height: 100%;
-	background-color: #263238;
+	background-color: #424242;
 }
 
 body {
