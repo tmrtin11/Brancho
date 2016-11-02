@@ -57,4 +57,4 @@ gem 'ruby-lol'
 # Bootstrap gem
 gem 'bootstrap-sass'
 # Font Awesome gem
-gem 'font-awesome-sass'
+gem 'font-awesome-rails'
