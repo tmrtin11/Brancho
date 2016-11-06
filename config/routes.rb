@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :blogs
+  resources :games
   devise_for :users, controllers: { sessions: 'users/sessions' }
   resources :pages
 

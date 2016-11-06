@@ -10,7 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161102210036) do
+ActiveRecord::Schema.define(version: 20161106214601) do
+
+  create_table "blogs", force: :cascade do |t|
+    t.integer  "user_id"
+    t.text     "blog_entry"
+    t.integer  "game_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "games", force: :cascade do |t|
+    t.string   "game_name"
+    t.string   "genre"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "pages", force: :cascade do |t|
     t.string   "home"
